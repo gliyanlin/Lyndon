@@ -5,7 +5,7 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import cn.springmvc.model.User;
+import cn.springmvc.model.security.User;
 import cn.springmvc.service.UserService;
 
  
@@ -14,7 +14,7 @@ import cn.springmvc.service.UserService;
  *
  */
 public class UserTest {
-	private UserService userService;
+	private UserService userService;	
     
     @Before
     
